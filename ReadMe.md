@@ -33,11 +33,15 @@ For exemple with homebrew:
 https://rocreguant.com/easy-install-anaconda-on-macos-using-homebrew/1875/
 
 2. Open a terminal at the level of the project
+
 cd *mypath*
 
 3. Execute in the terminal the following commands
 
 conda env create -f jupyter_env.yml
+
 conda activate customer_churn_snowpark
+
 python -m ipykernel install --user --name=customer_churn_snowpark
+
 jupyter notebook
